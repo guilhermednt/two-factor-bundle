@@ -8,6 +8,7 @@ use Scheb\TwoFactorBundle\Model\Google\TwoFactorInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Scheb\TwoFactorBundle\Security\TwoFactor\AuthenticationContext;
 use Doctrine\ORM\EntityManager;
+use Symfony\Component\Security\Core\Util\StringUtils;
 
 class TwoFactorProvider implements TwoFactorProviderInterface
 {
